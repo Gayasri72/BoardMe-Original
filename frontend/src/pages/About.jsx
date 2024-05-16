@@ -22,7 +22,7 @@ const About = () => {
             {/* Team member cards */}
             <div className="bg-white shadow-md rounded-lg p-6">
               <img src="./src/assets/about/member1.jpeg" alt="Team Member" className="w-32 h-32 rounded-full mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2 text-center">John Doe</h3>
+              <h3 className="text-xl font-bold mb-2 text-center">Gayashri Pethum</h3>
               <p className="text-gray-700 text-center mb-4">Co-Founder & CEO</p>
               <p className="text-gray-600 text-center">John is a visionary entrepreneur with a passion for innovation and teamwork. He brings extensive experience in business development and strategy.</p>
             </div>
