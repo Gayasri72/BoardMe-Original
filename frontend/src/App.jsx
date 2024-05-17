@@ -5,6 +5,9 @@ import Signin from './pages/Signin'
 import SignUp from './pages/SignUp'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Services from './pages/Services'
+import Events from './pages/Events'
+import Spaces from './pages/Spaces'
 const App = () => {
   return (
     <BrowserRouter>
@@ -14,6 +17,9 @@ const App = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/sign-in' element={<Signin/>}/>
       <Route path='/sign-up' element={<SignUp/>}/>
+      <Route path='/spaces' element={<Spaces/>}/>
+      <Route path='/events' element={<Events/>}/>
+      <Route path='/services' element={<Services/>}/>
 
     </Routes>
     <Footer/>
